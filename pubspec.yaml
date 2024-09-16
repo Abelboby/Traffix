@@ -1,0 +1,19 @@
+name: traffix
+description: A Flutter app for uploading media to IPFS and interacting with Ethereum.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web3: ^2.1.9
+  http: ^1.2.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
